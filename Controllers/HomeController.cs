@@ -32,8 +32,8 @@ namespace M2NETCore_MVC.Controllers
         {
             List<Servicios> servicios = new List<Servicios>();
             Servicios servicios1 = new Servicios(1, "Cocinar");
-            Servicios servicios2 = new Servicios(2, "Cocinar");
-            Servicios servicios3 = new Servicios(3, "Cocinar");
+            Servicios servicios2 = new Servicios(2, "Lavar");
+            Servicios servicios3 = new Servicios(3, "Limpiar");
             servicios.Add(servicios1);
             servicios.Add(servicios2);
             servicios.Add(servicios3);
