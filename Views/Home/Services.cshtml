@@ -1,0 +1,27 @@
+﻿
+@{ 
+
+    List<Servicios> listado = ViewBag.ListadoServicio;
+}
+
+<h3> Estos son los servicios</h3>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre del Servicio</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in listado)
+        {
+            <tr>
+                <td>@item._id</td>
+                <td>@item._descripcion</td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+
